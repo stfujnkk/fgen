@@ -51,12 +51,20 @@
                 ]
             }
         },
+        "base": {
+            "description": "模板根路径",
+            "type": "string"
+        },
+        "dest": {
+            "description": "目标根路径",
+            "type": "string"
+        },
         "defines": {
             "description": "定义公共变量",
             "type": "object"
         },
-        "pathMappings": {
-            "description": "路由匹配规则",
+        "pathMappers": {
+            "description": "路径映射器,用于路由匹配",
             "type": "array",
             "items": {
                 "type": "object",
@@ -129,6 +137,6 @@
         }
     },
     "required": [
-        "pathMappings"
+        "pathMappers"
     ]
 }

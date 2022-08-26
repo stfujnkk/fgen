@@ -1,4 +1,5 @@
 {
+    "$schema": "https://raw.githubusercontent.com/stfujnkk/fgen/main/schema.json",
     "imports": ["ext.json"],
     "extractors": [
         {
