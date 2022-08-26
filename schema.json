@@ -137,6 +137,8 @@
         }
     },
     "required": [
-        "pathMappers"
+        "pathMappers",
+        "base",
+        "dest"
     ]
 }
